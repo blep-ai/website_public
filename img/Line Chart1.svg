@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="566" height="401" viewBox="0 0 566 401">
+  <g id="Line_Chart1" data-name="Line Chart1" transform="translate(281.5 191)">
+    <g id="Chart">
+      <g id="Winners">
+        <path id="_B2DF8A" data-name="#B2DF8A" d="M0,380l11.1-12,11.1-12,11.1-12,11.1-11,11.1-12,11.1-12H77.7l11.1-12,11.1-12L111,273h11.1l11.1-12,11.1-12,11.1-11h22.2l11.1-12h11.1l11.1-12H222l11.1-12,11.1-12,11.1-12,11.1-12h11.1l11.1-12h11.1l11.1-11h11.1L333,131l11.1-12,11.1-12h11.1l11.1-12h33.3l11.1-12H444l11.1-12,11.1-12,11.1-11,11.1-12,11.1-12,11.1-12h22.2L543.9,0H555" transform="translate(-277.5 -190)" fill="none" stroke="#b2df8a" stroke-width="2"/>
+      </g>
+      <g id="Losers">
+        <path id="Path_15" data-name="Path 15" d="M0,380H66.6l11.1-12H111l11.1-12h33.3l11.1-12,11.1-11h11.1l11.1-12h11.1L222,309h44.4l11.1-12h11.1l11.1-12h11.1l11.1-12h33.3l11.1-12h11.1l11.1-12,11.1-11,11.1-12h11.1l11.1-12L444,202h66.6l11.1-12,11.1-12h11.1L555,166" transform="translate(-277.5 -190)" fill="none" stroke="#fb9a99" stroke-width="2"/>
+      </g>
+      <g id="win-loss">
+        <path id="_A6CEE3" data-name="#A6CEE3" d="M0,380l11.1-12,11.1-12,11.1-12,11.1-11,11.1-12,11.1-12,11.1,12,11.1-12,11.1-12L111,285l11.1,12,11.1-12,11.1-12,11.1-12,11.1,12,11.1,12,11.1-12,11.1,12,11.1-12L222,285l11.1-12,11.1-12,11.1-12,11.1-11,11.1,11,11.1-11,11.1,11,11.1-11,11.1,11L333,238l11.1-12,11.1-12,11.1,12,11.1-12,11.1,12,11.1,12,11.1,11,11.1-11,11.1,11L444,261l11.1-12,11.1-11,11.1-12,11.1-12,11.1-12,11.1-12,11.1,12,11.1,12,11.1-12L555,214" transform="translate(-277.5 -190)" fill="none" stroke="#a6cee3" stroke-width="4"/>
+      </g>
+    </g>
+    <g id="X_Axis_Line" data-name="X Axis Line">
+      <line id="Line_8" data-name="Line 8" x2="555" transform="translate(-277.5 190)" fill="none" stroke="#d3d3d3" stroke-width="1"/>
+    </g>
+    <g id="X_Axis" data-name="X Axis">
+      <text id="_0" data-name="0" transform="translate(-277.5 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-3.337" y="0">0</tspan></text>
+      <text id="_5" data-name="5" transform="translate(-222 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-3.337" y="0">5</tspan></text>
+      <text id="_10" data-name="10" transform="translate(-166.5 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">10</tspan></text>
+      <text id="_15" data-name="15" transform="translate(-111 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">15</tspan></text>
+      <text id="_20" data-name="20" transform="translate(-55.5 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">20</tspan></text>
+      <text id="_25" data-name="25" transform="translate(0 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">25</tspan></text>
+      <text id="_30" data-name="30" transform="translate(55.5 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">30</tspan></text>
+      <text id="_35" data-name="35" transform="translate(111 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">35</tspan></text>
+      <text id="_40" data-name="40" transform="translate(166.5 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">40</tspan></text>
+      <text id="_45" data-name="45" transform="translate(222 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">45</tspan></text>
+      <text id="_50" data-name="50" transform="translate(277.5 207)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-6.674" y="0">50</tspan></text>
+    </g>
+  </g>
+</svg>
