@@ -386,7 +386,484 @@
     <footer class="bg-blue-90 w-full relative overflow-hidden">
         <img src="./assets/images/footer-bg.svg" alt="footer-bg" class="absolute right-0 top-0 z-0">
         <div class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 py-10 lg:py-20 relative">
+            <div class="mb-[198px]"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleptechnologies</title>
+    <!-- cssanimation -->
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+
+    <!-- Flickity CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+
+    <!-- Flickity JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Alpine.js -->
+    <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
+</head>
+
+<body>
+    <!-- ================== Heros Section Start ==================== -->
+    <section
+        class="w-full bg-cover bg-center bg-[url('../images/blockchain-technology-background-gradient-blue-mobile.png')] lg:bg-[url('../images/blockchain-technology-background-gradient-blue.png')] relative">
+        <!-- Background Gradient Color -->
+        <div class="w-1/2 h-full bg-gradient-to-r from-black absolute left-0 z-0"></div>
+
+        <!-- Header Start -->
+        <header class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 py-[30px]" x-data="{openMenu : false}">
+            <nav class="relative flex lg:flex-row flex-col lg:items-center justify-between">
+
+                <div class="flex items-center justify-between lg:relative z-10">
+                    <!-- Logo -->
+                    <a href="#"><img src="./assets/images/bleptechnologies_logo.png" alt="logo"
+                            class="h-6 xl:h-[30px]"></a>
+
+                    <!-- Hamburger Menu -->
+                    <button class="lg:hidden" @click="openMenu = !openMenu">
+                        <svg id="Group_100" data-name="Group 100" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <path id="Path_853" data-name="Path 853" d="M0,0H24V24H0Z" fill="none" />
+                            <line id="Line_49" data-name="Line 49" x2="16" transform="translate(4 8)" fill="none"
+                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            <line id="Line_50" data-name="Line 50" x2="16" transform="translate(4 16)" fill="none"
+                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="hidden lg:flex items-center space-x-[10px] lg:relative z-10">
+                    <a href="https://www.linkedin.com/company/bleptech/" class="">
+                        <svg data-name="Group 84" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path data-name="Path 851" d="M0 0h24v24H0Z" fill="none" />
+                            <rect data-name="Rectangle 39" width="16" height="16" rx="2" transform="translate(4 4)"
+                                fill="none" stroke="#526782" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
+                            <path data-name="Line 46" fill="none" stroke="#526782" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" d="M8 11v5" />
+                            <path data-name="Line 47" fill="none" stroke="#526782" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" d="M8 8v.01" />
+                            <path data-name="Line 48" fill="none" stroke="#526782" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" d="M12 16v-5" />
+                            <path data-name="Path 852" d="M16 16v-3a2 2 0 0 0-4 0" fill="none" stroke="#526782"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/blepAI" class="">
+                        <svg id="Group_95" data-name="Group 95" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <path id="Path_6" data-name="Path 6" d="M0,0H24V24H0Z" fill="none" />
+                            <path id="Path_7" data-name="Path 7"
+                                d="M22,4.01A17.943,17.943,0,0,1,19,5a3.789,3.789,0,0,0-4.38-.737A3.933,3.933,0,0,0,12,8V9A9.392,9.392,0,0,1,4,5S-.182,12.433,8,16a9.856,9.856,0,0,1-6,2,13.425,13.425,0,0,0,10.034,1.517,11,11,0,0,0,7.651-7.742,13.84,13.84,0,0,0,.5-3.753c0-.249,1.51-2.772,1.818-4.013Z"
+                                fill="none" stroke="#526782" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
+                        </svg>
+                    </a>
+
+                </div>
+
+                <!-- Menus -->
+                <ul x-bind:class="openMenu ? 'flex' : 'hidden lg:flex'"
+                    class="flex-col lg:flex-row lg:items-center lg:justify-center space-y-3 lg:space-y-0 lg:space-x-5 lg:absolute lg:inset-x-0 lg:z-0 mt-5 lg:mt-0">
+                    <li><a href="#about" class="text-base text-white uppercase">About Us</a></li>
+                    <li><a href="#products" class="text-base text-white uppercase">Products</a></li>
+                    <li><a href="#blog" class="text-base text-white uppercase">BLOG</a></li>
+                    <li><a href="https://jobs.lever.co/Blep" class="text-base text-white uppercase">JOBS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header End  -->
+
+        <!-- Heors Start  -->
+        <main class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 pt-[340px] lg:pt-48 pb-20 lg:pb-60 relative">
+            <div class="max-w-3xl text-center lg:text-left mx-auto lg:ml-0">
+                <p class="text-xs font-medium text-blue-10 uppercase tracking-[0.17em] mb-[10] md:mb-0"
+                    data-scroll="out" data-splitting="">BUILDING THE FUTURE OF WEB 3.0</p>
+                <h1 class="text-[28px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-8 lg:leading-[65px] text-white mb-5"
+                    data-scroll="out" data-splitting="">
+                    Leading
+                    blockchain
+                    data infrastructure.</h1>
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white-10 lg:leading-8 mb-10 lg:max-w-2xl"
+                    data-scroll="out" data-splitting="">
+                    Blep
+                    Technologies
+                    is one of the fastest
+                    growing, leading blockchain data
+                    infrastructure players, making alternative
+                    data easily accessible by everyone.</p>
+                <a href="#"
+                    class="bg-blue-80 text-xs font-medium tracking-[0.12em] text-white uppercase px-5 py-4 shadow-10">explore</a>
+            </div>
+        </main>
+        <!-- Heors End  -->
+    </section>
+    <!-- ================== Heros Section End ==================== -->
+
+
+
+    <!-- ================== AboutUS Section Start ==================== -->
+    <section id="about" class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 py-20 lg:py-[120px] scroll-mt-12">
+        <div class="grid lg:grid-cols-12 gap-6">
+            <div class="lg:col-start-2 lg:col-span-8">
+                <p class="text-xs font-medium uppercase text-blue-10 mb-[10px] lg:mb-0" data-scroll="out"
+                    data-splitting="">about us</p>
+                <p
+                    class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[30px] xl:leading-[37px] text-blue-90 mb-10">
+                    We
+                    focus on
+                    real-time blockchain and
+                    blockchain-adjacent data, and offer a library
+                    of over <span class="text-blue-80" data-scroll="out" data-splitting="">200,000 real time
+                        streams</span> of raw
+                    metrics while connecting to thousands of
+                    blockchain applications on Ethereum today.</p>
+                <a href="https://jobs.lever.co/Blep" class="text-sm text-blue-80 uppercase flex items-center">
+                    <span data-scroll="out" data-splitting=""> join our team</span>
+                    <svg data-name="Group 7" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 20 20">
+                        <path data-name="Path 10" d="M0 0h20v20H0Z" fill="none" />
+                        <path data-name="Line 4" fill="none" stroke="#1743d3" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" d="m14 6-8 8" />
+                        <path data-name="Path 11" d="M6.695 5.858h7.446v7.446" fill="none" stroke="#1743d3"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ================== AboutUS Section End ==================== -->
+
+
+
+    <!-- ================== Products Section Start ==================== -->
+    <section id="products"
+        class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 pb-20 lg:pb-[135px] scroll-mt-12 page">
+        <p class="text-xs font-medium uppercase text-blue-10 tracking-[0.17em] mb-[10] md:mb-0 w-full" data-scroll="out"
+            data-splitting="">products</p>
+        <h1 class="text-[25px] sm:text-3xl md:text-4xl lg:text-[40px] font-bold max-w-4xl w-full mb-9 sm:mb-12 md:mb-16 lg:mb-20"
+            data-scroll="out" data-splitting="">
+            Empowering developers, and
+            people
+            worldwide to build on Ethereum and multi-chain for Web 3.0.</h1>
+
+        <div class="border-t border-blue-10">
+            <div class="flex flex-wrap lg:items-center py-5 border-b border-blue-10">
+                <div class="w-full lg:w-4/12 mb-[10px] lg:mb-0">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-xl md:text-2xl lg:text-[30px] font-bold text-blue-90" data-scroll="out"
+                            data-splitting="">Nakji Network</h2>
+                        <a href="https://nakji.network/" class="lg:hidden">
+                            <svg data-name="Group 102" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path data-name="Path 10" d="M0 0h24v24H0Z" fill="none" />
+                                <path data-name="Line 4" fill="none" stroke="#1f2937" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1.5" d="m16.818 7.181-9.637 9.637" />
+                                <path data-name="Path 11" d="M8.016 7.014h8.97v8.97" fill="none" stroke="#1f2937"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-5/12">
+                    <p class="text-sm md:text-base lg:text-lg xl:text-xl text-blue-10 xl:pr-3 w-full" data-scroll="out"
+                        data-splitting="">NAKJI connects
+                        traditional web
+                        infrastructure to blockchains seamlessly
+                        for data consumers and data producers.</p>
+                </div>
+                <div class="ml-auto lg:flex hidden">
+                    <a href="https://nakji.network/" class=""><svg id="Group_70" data-name="Group 70"
+                            xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                            <path id="Path_10" data-name="Path 10" d="M0,0H48V48H0Z" fill="none" />
+                            <line id="Line_4" data-name="Line 4" x1="19.262" y2="19.262"
+                                transform="translate(14.369 14.369)" fill="none" stroke="#1f2937" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                            <path id="Path_11" data-name="Path 11" d="M8,7H25.929V24.929"
+                                transform="translate(8.038 7.033)" fill="none" stroke="#1f2937" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-wrap lg:items-center py-5 border-b border-blue-10">
+                <div class="w-full lg:w-4/12 mb-[10px] lg:mb-0">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-xl md:text-2xl lg:text-[30px] font-bold text-blue-90" data-scroll="out"
+                            data-splitting="">BitScope</h2>
+                        <a href="https://charts.blep.ai/" class="lg:hidden">
+                            <svg data-name="Group 102" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path data-name="Path 10" d="M0 0h24v24H0Z" fill="none" />
+                                <path data-name="Line 4" fill="none" stroke="#1f2937" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1.5" d="m16.818 7.181-9.637 9.637" />
+                                <path data-name="Path 11" d="M8.016 7.014h8.97v8.97" fill="none" stroke="#1f2937"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-5/12">
+                    <p class="text-sm md:text-base lg:text-lg xl:text-xl text-blue-10 xl:pr-3" data-scroll="out"
+                        data-splitting="">Chart blockchain data
+                        including markets,
+                        liquidity pools, and stats on Ethereum,
+                        Binance Smart Chain Smart Chain, Polygon
+                        and more.</p>
+                </div>
+                <div class="ml-auto lg:flex hidden">
+                    <a href="https://analytics.blep.ai/" class=""><svg id="Group_70" data-name="Group 70"
+                            xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                            <path id="Path_10" data-name="Path 10" d="M0,0H48V48H0Z" fill="none" />
+                            <line id="Line_4" data-name="Line 4" x1="19.262" y2="19.262"
+                                transform="translate(14.369 14.369)" fill="none" stroke="#1f2937" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                            <path id="Path_11" data-name="Path 11" d="M8,7H25.929V24.929"
+                                transform="translate(8.038 7.033)" fill="none" stroke="#1f2937" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================== Products Section End ==================== -->
+
+
+
+
+    <!-- ================== Blog Section Start ==================== -->
+    <section id="blog" class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 pb-20 lg:pb-[120px] scroll-mt-12">
+
+        <div class="flex justify-between items-end  mb-10">
+            <div class="w-full lg:w-7/12">
+                <p class="text-xs font-medium uppercase text-blue-10 tracking-[0.17em] mb-[10] md:mb-0"
+                    data-scroll="out" data-splitting="">blog
+                </p>
+                <h1 class="text-[25px] sm:text-3xl md:text-4xl lg:text-[40px] font-bold" data-scroll="out"
+                    data-splitting="">
+                    Blockchain infrastructure for
+                    the decentralised web.</h1>
+            </div>
+            <div class="hidden lg:inline">
+                <a href="#"
+                    class="border-2 border-blue-80 bg-transparent rounded-sm px-5 py-4 inline-flex items-center space-x-2 uppercase">
+                    <span>all articles</span>
+                    <svg id="Group_69" data-name="Group 69" xmlns="http://www.w3.org/2000/svg" width="15.995"
+                        height="15.995" viewBox="0 0 15.995 15.995">
+                        <path id="Path_10" data-name="Path 10" d="M0,0H16V16H0Z" fill="none" />
+                        <line id="Line_4" data-name="Line 4" x1="6.398" y2="6.398" transform="translate(4.799 4.799)"
+                            fill="none" stroke="#1743d3" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" />
+                        <path id="Path_11" data-name="Path 11" d="M8,7h5.955v5.955" transform="translate(-2.645 -2.315)"
+                            fill="none" stroke="#1743d3" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class=""
+            data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false, "prevNextButtons": false, "freeScroll": false }'>
+
+            <div class="w-[290px] bg-white rounded-sm overflow-hidden mx-5">
+                <img src="./assets/images/img-1.jpg" alt="" class="w-full h-48 object-cover object-center">
+                <div class="p-5 pb-10">
+                    <h5 class="text-xl font-bold leading-6 text-blue-90 mb-5" data-scroll="out" data-splitting="">
+                        Web 3.0 and the Decentralized Data Infrastructure of the Future</h5>
+                    <a href="https://nakji.medium.com/web-3-0-and-the-decentralized-data-infrastructure-of-the-future-93c5d6f78f50" class="text-sm text-blue-80 flex item-center space-x-2 uppercase">
+                        <span data-scroll="out" data-splitting="">read more</span>
+                        <svg id="Group_63" data-name="Group 63" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 20 20">
+                            <path id="Path_10" data-name="Path 10" d="M0,0H20V20H0Z" fill="none" />
+                            <line id="Line_4" data-name="Line 4" x1="8" y2="8" transform="translate(6 6)" fill="none"
+                                stroke="#1743d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            <path id="Path_11" data-name="Path 11" d="M8,7h7.446v7.446"
+                                transform="translate(-1.305 -1.142)" fill="none" stroke="#1743d3" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-[290px] bg-white rounded-sm overflow-hidden mx-5">
+                <img src="./assets/images/img-2.jpg" alt="" class="w-full h-48 object-cover object-center">
+                <div class="p-5 pb-10">
+                    <h5 class="text-xl font-bold leading-6 text-blue-90 mb-5" data-scroll="out" data-splitting="">NAKJI NETWORK Completes a $8.8 Million Private Round Of Fundraising
+                    </h5>
+                    <a href="https://nakji.medium.com/nakji-network-completes-an-8-8-million-private-round-of-fundraising-7c5877a7707e" class="text-sm text-blue-80 flex item-center space-x-2 uppercase">
+                        <span data-scroll="out" data-splitting="">read more</span>
+                        <svg id="Group_63" data-name="Group 63" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 20 20">
+                            <path id="Path_10" data-name="Path 10" d="M0,0H20V20H0Z" fill="none" />
+                            <line id="Line_4" data-name="Line 4" x1="8" y2="8" transform="translate(6 6)" fill="none"
+                                stroke="#1743d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            <path id="Path_11" data-name="Path 11" d="M8,7h7.446v7.446"
+                                transform="translate(-1.305 -1.142)" fill="none" stroke="#1743d3" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-[290px] bg-white rounded-sm overflow-hidden mx-5">
+                <img src="./assets/images/img-3.jpg" alt="" class="w-full h-48 object-cover object-center">
+                <div class="p-5 pb-10">
+                    <h5 class="text-xl font-bold leading-6 text-blue-90 mb-5" data-scroll="out" data-splitting="">
+                        Ethereum Layer 2 TVL Surges 13% To New
+                        All-Time Highs
+                    </h5>
+                    <a href="#" class="text-sm text-blue-80 flex item-center space-x-2 uppercase">
+                        <span data-scroll="out" data-splitting="">read more</span>
+                        <svg id="Group_63" data-name="Group 63" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 20 20">
+                            <path id="Path_10" data-name="Path 10" d="M0,0H20V20H0Z" fill="none" />
+                            <line id="Line_4" data-name="Line 4" x1="8" y2="8" transform="translate(6 6)" fill="none"
+                                stroke="#1743d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            <path id="Path_11" data-name="Path 11" d="M8,7h7.446v7.446"
+                                transform="translate(-1.305 -1.142)" fill="none" stroke="#1743d3" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-[290px] bg-white rounded-sm overflow-hidden mx-5">
+                <img src="./assets/images/img-4.jpg" alt="" class="w-full h-48 object-cover object-center">
+                <div class="p-5 pb-10">
+                    <h5 class="text-xl font-bold leading-6 text-blue-90 mb-5" data-scroll="out" data-splitting="">Why is
+                        Blockchain
+                        the next big thing
+                        for data science?
+                    </h5>
+                    <a href="#" class="text-sm text-blue-80 flex item-center space-x-2 uppercase">
+                        <span data-scroll="out" data-splitting="">read more</span>
+                        <svg id="Group_63" data-name="Group 63" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 20 20">
+                            <path id="Path_10" data-name="Path 10" d="M0,0H20V20H0Z" fill="none" />
+                            <line id="Line_4" data-name="Line 4" x1="8" y2="8" transform="translate(6 6)" fill="none"
+                                stroke="#1743d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                            <path id="Path_11" data-name="Path 11" d="M8,7h7.446v7.446"
+                                transform="translate(-1.305 -1.142)" fill="none" stroke="#1743d3" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================== Blog Section End ==================== -->
+
+
+    <!-- ================== Footer Section Start ==================== -->
+    <footer class="bg-blue-90 w-full relative overflow-hidden">
+        <img src="./assets/images/footer-bg.svg" alt="footer-bg" class="absolute right-0 top-0 z-0">
+        <div class="container xl:max-w-[1440px] mx-auto px-4 xl:px-20 py-10 lg:py-20 relative">
             <div class="mb-[198px]">
+                <a href="#" class="inline-block mb-10"><img src="./assets/images/bleptechnologies_logo.png" alt=""
+                        class="h-[30px]"></a>
+                <p class="text-lg text-white-20">Building the future of Web 3.0</p>
+            </div>
+            <div class="flex lg:flex-row flex-col items-center justify-between lg:border-t border-blue-10 lg:pt-10">
+                <div
+                    class="text-center lg:text-left border-t lg:border-t-0 border-blue-10 pt-10 lg:pt-0 order-2 lg:order-1 w-full lg:w-auto">
+                    <p class="text-xs font-medium tracking-[0.17em] uppercase text-blue-10">Copyright © 2021 Blep
+                        Technologies</p>
+                    <div class="flex items-center justify-center lg:justify-start space-x-3">
+                        <a href="#" class="text-xs font-medium tracking-[0.17em] uppercase text-blue-10">All rights
+                            reserved</a>
+                        <span
+                            class="pointer-events-none ext-xs font-medium tracking-[0.17em] uppercase text-blue-10">|</span>
+                        <a href="#" class="text-xs font-medium tracking-[0.17em] uppercase text-blue-10">All rights
+                            Privacy</a>
+                    </div>
+                </div>
+
+                <div
+                    class="order-1 lg:order-2 pb-10 lg:pb-0 flex items-center justify-end space-x-[10px] w-full lg:w-auto">
+                    <a href="https://www.linkedin.com/company/bleptech/" class="">
+                        <svg data-name="Group 84" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path data-name="Path 851" d="M0 0h24v24H0Z" fill="none" />
+                            <rect data-name="Rectangle 39" width="16" height="16" rx="2" transform="translate(4 4)"
+                                fill="none" stroke="#526782" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
+                            <path data-name="Line 46" fill="none" stroke="#526782" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" d="M8 11v5" />
+                            <path data-name="Line 47" fill="none" stroke="#526782" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" d="M8 8v.01" />
+                            <path data-name="Line 48" fill="none" stroke="#526782" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" d="M12 16v-5" />
+                            <path data-name="Path 852" d="M16 16v-3a2 2 0 0 0-4 0" fill="none" stroke="#526782"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/blepAI" class="">
+                        <svg id="Group_95" data-name="Group 95" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <path id="Path_6" data-name="Path 6" d="M0,0H24V24H0Z" fill="none" />
+                            <path id="Path_7" data-name="Path 7"
+                                d="M22,4.01A17.943,17.943,0,0,1,19,5a3.789,3.789,0,0,0-4.38-.737A3.933,3.933,0,0,0,12,8V9A9.392,9.392,0,0,1,4,5S-.182,12.433,8,16a9.856,9.856,0,0,1-6,2,13.425,13.425,0,0,0,10.034,1.517,11,11,0,0,0,7.651-7.742,13.84,13.84,0,0,0,.5-3.753c0-.249,1.51-2.772,1.818-4.013Z"
+                                fill="none" stroke="#526782" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ================== Footer Section End ==================== -->
+
+
+
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>
+        ScrollOut({
+            // targets: '#blog',
+            // scrollingElement: '#blog',
+            onShown: function (el) {
+                console.log(el.classList.contains("scrolled"))
+                if (!el.classList.contains("scrolled")) {
+                    let i = 0;
+                    let txt = el.innerText; /* The text */
+                    let speed = 40; /* The speed/duration of the effect in milliseconds */
+                    let eli = el;
+                    eli.innerHTML = '';
+                    function typeWriter() {
+                        if (i < txt.length) {
+                            eli.innerHTML += txt.charAt(i);
+                            i++;
+                            setTimeout(typeWriter, speed);
+                        }
+                    }
+                    typeWriter();
+                    el.classList.add("scrolled");
+                }
+            }
+        });
+
+
+    </script>
+
+</body>
+
+</html>
+
                 <a href="#" class="inline-block mb-10"><img src="./assets/images/bleptechnologies_logo.png" alt=""
                         class="h-[30px]"></a>
                 <p class="text-lg text-white-20">Building the future of Web 3.0</p>
